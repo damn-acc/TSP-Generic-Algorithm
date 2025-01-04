@@ -174,7 +174,7 @@ if __name__ == "__main__":
     cost_matrix = np.loadtxt("graph_matrix.csv", delimiter=",", dtype=int)
 
     population_size = 20
-    generations = 500
+    generations = 50
 
     best_route, best_cost = genetic_algorithm(
         cost_matrix,
